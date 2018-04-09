@@ -1,4 +1,4 @@
-# nunjucks-octicons-extension
+# nunjucks-octicons-extension &middot; [![npm version](https://img.shields.io/npm/v/nunjucks-octicons-extension.svg?style=flat)](https://www.npmjs.com/package/nunjucks-octicons-extension)
 
 ## Usage
 
