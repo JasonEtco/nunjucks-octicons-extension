@@ -1,5 +1,5 @@
 const nunjucks = require('nunjucks')
-const octicons = require('octicons')
+const octicons = require('@primer/octicons')
 
 class OcticonExtension {
   constructor () {
