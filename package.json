@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Nunjucks Octicons extension",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasonEtco/nunjucks-octicons-extension"
+  },
   "scripts": {
     "test": "jest && standard",
     "test:coverage": "jest --coverage",
