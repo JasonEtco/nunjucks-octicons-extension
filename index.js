@@ -15,7 +15,9 @@ class OcticonExtension {
 
   run (context, data, args) {
     // Throw an error if the request octicon does not exist.
-    if (!octicons.hasOwnProperty(data)) throw new Error(`Octicon ${data} does not exist`)
+    if (!Object.prototype.hasOwnProperty.call(octicons, data)) {
+      throw new Error(`Octicon ${data} does not exist`)
+    }
 
     // Remove the __keywords prop, it messes with `toSVG()`
     if (args && args.__keywords) delete args.__keywords
